@@ -13,3 +13,4 @@ run=Solution()
 a=[2,7,11,15]
 b=9
 print(run.twoSum(a,b))
+# make use of dict since answer can be a pair

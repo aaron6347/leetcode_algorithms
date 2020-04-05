@@ -1,6 +1,4 @@
-ar=[1]
-string='1'
-s=''
-for x in ar:
-   s=s+string.join(str(x))
-print(s)
+
+a=[1,2,3,4,5,6]
+for x in range(len(a)):
+   print(a[~x])

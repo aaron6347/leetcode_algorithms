@@ -40,3 +40,4 @@ class Solution:
 run=Solution()
 a=6
 print(run.countAndSay(a))
+# solve counting of num in str, check with next, assign new str, repeat

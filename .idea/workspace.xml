@@ -23,8 +23,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.#1_two_sum">
-    <configuration name="#1_two_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.#88._merge_sorted_array">
+    <configuration name="#67_add_binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -36,7 +36,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/#1_two_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/#67_add_binary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -45,7 +45,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="#38_count_and_say" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="#69_sqrt(x)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,7 +57,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/#38_count_and_say.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/#69_sqrt(x).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="#70_climbing_stairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +78,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/#70_climbing_stairs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="#83_remove_duplicates_from_sorted_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode_algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/#83_remove_duplicates_from_sorted_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="#88._merge_sorted_array" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode_algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/#88._merge_sorted_array.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,9 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.#1_two_sum" />
-        <item itemvalue="Python.#38_count_and_say" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.#88._merge_sorted_array" />
+        <item itemvalue="Python.#83_remove_duplicates_from_sorted_list" />
+        <item itemvalue="Python.#70_climbing_stairs" />
+        <item itemvalue="Python.#69_sqrt(x)" />
+        <item itemvalue="Python.#67_add_binary" />
       </list>
     </recent_temporary>
   </component>
@@ -121,25 +165,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1492" height="190" key="GridCell.Tab.0.bottom" timestamp="1586005478226">
+    <state width="1492" height="190" key="GridCell.Tab.0.bottom" timestamp="1586029125874">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1492" height="190" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1586005478226" />
-    <state width="1492" height="190" key="GridCell.Tab.0.center" timestamp="1586005478226">
+    <state width="1492" height="190" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1586029125874" />
+    <state width="1492" height="190" key="GridCell.Tab.0.center" timestamp="1586029125874">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1492" height="190" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1586005478226" />
-    <state width="1492" height="190" key="GridCell.Tab.0.left" timestamp="1586005478225">
+    <state width="1492" height="190" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1586029125874" />
+    <state width="1492" height="190" key="GridCell.Tab.0.left" timestamp="1586029125874">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1492" height="190" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1586005478225" />
-    <state width="1492" height="190" key="GridCell.Tab.0.right" timestamp="1586005478226">
+    <state width="1492" height="190" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1586029125874" />
+    <state width="1492" height="190" key="GridCell.Tab.0.right" timestamp="1586029125874">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1492" height="190" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1586005478226" />
-    <state x="444" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1586001293567">
+    <state width="1492" height="190" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1586029125874" />
+    <state x="444" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1586062600731">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="444" y="276" key="com.intellij.ide.util.TipDialog/0.40.1536.824@0.40.1536.824" timestamp="1586001293567" />
+    <state x="444" y="276" key="com.intellij.ide.util.TipDialog/0.40.1536.824@0.40.1536.824" timestamp="1586062600731" />
   </component>
 </project>
