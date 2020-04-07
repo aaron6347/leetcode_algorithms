@@ -18,4 +18,4 @@ class Solution:
 run=Solution()
 a=-321
 print(run.reverse(a))
-# sensitive test case, negative number need to be in negative but number reversed
+# sensitive test case: negative number need to be in negative but number reversed
