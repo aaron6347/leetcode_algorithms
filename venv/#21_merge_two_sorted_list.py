@@ -28,6 +28,7 @@ run=Solution()
 a,b=[1,2,4],[1,3,4]
 tail=head = ListNode(a[0])
 tail2=head2 = ListNode(b[0])
+# single list node
 for x in a[1:]:
     tail.next = ListNode(x)
     tail=tail.next
@@ -35,6 +36,7 @@ for x in b[1:]:
     tail2.next = ListNode(x)
     tail2=tail2.next
 run.mergeTwoLists(head,head2)
+# output thingy
 s='['
 while head:
     s+=str(head.val)+','

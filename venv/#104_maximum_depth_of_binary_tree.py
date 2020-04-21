@@ -24,9 +24,9 @@ class Solution:
         return max(self.maxDepth(root.left), self.maxDepth(root.right))+1 if root else 0
 
 run = Solution()
-# a = [1, 2, 2, 3, 4, 4, 3]
-a=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-head=node = TreeNode(a[0])
+a = [1, 2, 2, 3, 4, 4, 3]
+node = TreeNode(a[0])
+# symmetry binary tree
 bi=[2,4,8,16,32,64]
 for x in range(1, len(a)):
     sum=0

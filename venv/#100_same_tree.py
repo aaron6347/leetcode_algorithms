@@ -28,6 +28,7 @@ run = Solution()
 a, b = [1, 2, 4], [1, 2, 4]
 node = TreeNode(a[0])
 node2 = TreeNode(b[0])
+# short version symmetry binary tree
 for x in range(1, len(a)):
     node.insert(a[x])
     node2.insert(b[x])

@@ -54,6 +54,7 @@ class Solution:
 run = Solution()
 a= [1, 2, 2, 3, 4, 4, 3]
 node=TreeNode(a[0])
+# short version symmetry binary tree
 for x in range(1,len(a)):
     node.insert(a[x])
 print(run.isSymmetric(node))
