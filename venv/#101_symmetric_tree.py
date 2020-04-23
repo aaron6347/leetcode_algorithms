@@ -6,6 +6,7 @@ class TreeNode:
         self.val = x
         self.left = None
         self.right = None
+        
     def insert(self, root):
         if self.left is None:
             self.left = TreeNode(root)
