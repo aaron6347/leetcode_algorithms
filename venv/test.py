@@ -9,3 +9,5 @@ for x in range(len(a)):
    print(a[~x])
 st=set(x for x in a)
 print(st)
+l=1
+print(l//2)
