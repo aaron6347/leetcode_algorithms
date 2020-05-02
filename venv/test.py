@@ -11,3 +11,7 @@ st=set(x for x in a)
 print(st)
 l=1
 print(l//2)
+a=90
+print(chr(a))
+b='A'
+print('here', ord(b))
