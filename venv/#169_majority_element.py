@@ -2,51 +2,48 @@
     Created by Aaron at 02-May-20"""
 from typing import List
 class Solution:
-    # app1
-    # def majorityElement(self, nums: List[int]) -> int:
-    #     if len(nums)<3:
-    #         return nums[0]
-    #     dic={}
-    #     n=len(nums)
-    #     for x in range(n):
-    #         if nums[x] not in dic:
-    #             dic[nums[x]]=1
-    #         else:
-    #             dic[nums[x]]+=1
-    #             if dic[nums[x]]>n//2:
-    #                 return nums[x]
-
-    # app2
-    # def majorityElement(self, nums: List[int]) -> int:
-    #     if len(nums) < 3:
-    #         return nums[0]
-    #     dic = {}
-    #     n = len(nums)
-    #     l, r = 0, n - 1
-    #     while l <= r:
-    #         if nums[l] not in dic:
-    #             dic[nums[l]] = 1
-    #         else:
-    #             dic[nums[l]] += 1
-    #             if dic[nums[l]] > n // 2:
-    #                 return nums[l]
-    #         if nums[r] not in dic:
-    #             dic[nums[r]] = 1
-    #         else:
-    #             dic[nums[r]] += 1
-    #             if dic[nums[r]] > n // 2:
-    #                 return nums[r]
-    #         l += 1
-    #         r -= 1
-
-    # app3
-    # def majorityElement(self, nums: List[int]) -> int:
-    #     import collections
-    #     counts = collections.Counter(nums)
-    #     return max(counts.keys(), key=counts.get)
-
-    # app4
     def majorityElement(self, nums: List[int]) -> int:
+        # app1
+        # if len(nums)<3:
+        #     return nums[0]
+        # dic={}
+        # n=len(nums)
+        # for x in range(n):
+        #     if nums[x] not in dic:
+        #         dic[nums[x]]=1
+        #     else:
+        #         dic[nums[x]]+=1
+        #         if dic[nums[x]]>n//2:
+        #             return nums[x]
+
+        # app2
+        # if len(nums) < 3:
+        #     return nums[0]
+        # dic = {}
+        # n = len(nums)
+        # l, r = 0, n - 1
+        # while l <= r:
+        #     if nums[l] not in dic:
+        #         dic[nums[l]] = 1
+        #     else:
+        #         dic[nums[l]] += 1
+        #         if dic[nums[l]] > n // 2:
+        #             return nums[l]
+        #     if nums[r] not in dic:
+        #         dic[nums[r]] = 1
+        #     else:
+        #         dic[nums[r]] += 1
+        #         if dic[nums[r]] > n // 2:
+        #             return nums[r]
+        #     l += 1
+        #     r -= 1
+
+        # app3
+        # import collections
+        # counts = collections.Counter(nums)
+        # return max(counts.keys(), key=counts.get)
+
+        # app4
         count = 0
         candidate = None
         for num in nums:

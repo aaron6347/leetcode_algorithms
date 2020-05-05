@@ -7,22 +7,21 @@ class ListNode:
         self.next = None
 
 class Solution:
-    # app1
-    # def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
-    #     if headA is None or headB is None:
-    #         return None
-    #     dic={}
-    #     while headA:
-    #         dic[headA]=headA.val
-    #         headA=headA.next
-    #     while headB:
-    #         if headB in dic:
-    #             return headB
-    #         headB=headB.next
-    #     return None
-
-    # app2
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        # app1
+        # if headA is None or headB is None:
+        #     return None
+        # dic={}
+        # while headA:
+        #     dic[headA]=headA.val
+        #     headA=headA.next
+        # while headB:
+        #     if headB in dic:
+        #         return headB
+        #     headB=headB.next
+        # return None
+
+        # app2
         if headA is None or headB is None:
             return None
         a, b = headA, headB
